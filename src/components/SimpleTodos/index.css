@@ -1,0 +1,53 @@
+/* Write your CSS here */
+.container {
+  background-color: #ffc2a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
+
+.todo-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  border-radius: 18px;
+  margin: 50px;
+}
+
+@media (max-width: 768px) {
+  .todo-container {
+    margin: 40px;
+  }
+}
+
+.heading {
+  color: #ff8542;
+  font-family: 'Roboto';
+  font-size: 50px;
+  font-weight: bold;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 30px;
+  }
+}
+
+.todo-items {
+  display: flex;
+  flex-direction: column;
+  max-width: 90%;
+  padding: 0px;
+}
